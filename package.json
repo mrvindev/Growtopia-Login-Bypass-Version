@@ -1,0 +1,24 @@
+﻿{
+  "name": "growtopia-login-bypass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Growtopia login bypass: generate Google and GrowID login links",
+  "keywords": [
+    "growtopia",
+    "login",
+    "bypass",
+    "google",
+    "growid"
+  ],
+  "type": "module",
+  "bin": {
+    "growtopia-login-bypass": "./cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test"
+  }
+}
